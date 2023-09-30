@@ -1,0 +1,27 @@
+
+<html>
+<head>
+    <title>Submitted Information</title>
+</head>
+<body>
+    <h2>Submitted Information</h2>
+    <div id="displayInfo">
+        
+    </div>
+
+    <script>
+        
+        const urlParams = new URLSearchParams(window.location.search);
+
+        
+        const displayInfo = document.getElementById('displayInfo');
+        displayInfo.innerHTML = `<p><strong>First Name:</strong> ${urlParams.get('first_name')}</p>
+            <p><strong>Middle Name:</strong> ${urlParams.get('middle_name') || 'N/A'}</p>
+            <p><strong>Last Name:</strong> ${urlParams.get('last_name')}</p>
+            <p><strong>Address:</strong> ${urlParams.get('address')}</p>
+            <p><strong>Email:</strong> ${urlParams.get('email')}</p>
+            <p><strong>Mobile Number:</strong> ${urlParams.get('mobile_number')}</p>
+            <p><strong>Description:</strong> ${urlParams.get('description')}</p>`;
+    </script>
+</body>
+</html>     

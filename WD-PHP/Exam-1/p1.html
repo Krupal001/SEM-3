@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.html" method="get">
+        <input type="text" id="name"><br>
+        <input type="text" id="pass"><br>
+        <button type="submit" onclick="Move()">submit</button>
+    </form>
+    <script>
+        function Move()
+        {
+            const v1=document.getElementById('name').value;
+            const v2=document.getElementById('pass').value;
+
+            if(v1==v2)
+                window.location.href="submit.html?"
+        }
+    </script>
+</body>
+</html>

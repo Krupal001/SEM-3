@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Results</title>
+</head>
+<body>
+<h2>Student Results</h2>
+<form action="result.php" method="post" enctype="multipart/form-data">
+<label for="exam_no">Exam No:</label>
+<input type="text" name="exam_no" required><br><br>
+<label for="course">Course:</label>
+<select name="course">
+<option value="mca">MCA</option>
+<option value="MBA">MBA</option>
+<option value="B.tech">B.Tech</option>
+</select><br><br>
+<label for="photo">Student Photo (JPEG, max 25 KB):</label>
+<input type="file" name="photo" accept="image/jpeg" required>
+<br><br>
+<label for="semester">Semester:</label>
+<input type="text" name="semester" required><br><br>
+<label for="subject1">C:</label>
+<input type="number" name="subject1" required><br><br>
+<label for="subject2">CPP:</label>
+<input type="number" name="subject2" required><br><br>
+<label for="subject3">DBMS:</label>
+<input type="number" name="subject3" required><br><br>
+<label for="subject4">WD:</label>
+<input type="number" name="subject4" required><br><br>
+<label for="subject5">COA:</label>
+<input type="number" name="subject5" required><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

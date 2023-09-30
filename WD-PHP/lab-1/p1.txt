@@ -1,0 +1,23 @@
+1).for installing XAMP
+
+Step 1: Download XAMPP
+
+Step 2: Run .exe file
+
+Step 3: Deactivate any antivirus software
+
+Step 4: Deactivate UAC
+
+Step 5: Start the setup wizard
+
+Step 6: Choose software components
+
+Step 7: Choose the installation directory
+
+Step 8: Start the installation process
+
+Step 9: Windows Firewall blocking
+
+Step 10: Complete installation
+
+Step 11: Open the XAMPP Control Panel
